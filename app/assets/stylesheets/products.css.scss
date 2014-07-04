@@ -2,6 +2,13 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.bird img{
+	max-height: 100px; 
+	margin-left:20px; 
+	margin-top: -30px;
+}
+
+
 .specie {
 	border-bottom: solid 1px #CCC;
 	padding: 5px 0; 
