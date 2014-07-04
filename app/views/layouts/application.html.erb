@@ -1,14 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Demo</title>
+  <title>Exotic Specimens</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
-<body = ' <%= controller.controller_name %> ' >
 
-<%= yield %>
+<body = ' <%= controller.controller_name %> ' >
+	<div id= "banner" > 
+		<%= image_tag("logo.png")%> 
+		<%= @page_title || "Specimen Catalogue" %> 
+	</div> 
+	<div id="columns"> 
+		<div id="side"> 
+
+		</div> 
+
+
+
+	<div class="navbar"> 
+		<div class="navbar-inner">
+			<div class="container"> 
+				<a href="#" class="brand"> Spec-i-Men </a>
+
+				<ul class = "nav"> 
+					<li> <a href= "http://www..." >
+					Home </a> </li> 
+					<li> <a href = "http://www.../faq" >
+					Questions </a> </li> 
+					<li> <a href= "http://www.../news" >
+					News </a> </li> 
+					<li> <a href= "http://www..../contact" >
+					Contact </a> </li> 
+				</ul> 
+			</div> 
+		</div>
+	</div> 
+
+	<div class="container"> 
+		<%= yield %>
+	</div> 
 
 </body>
 </html>
