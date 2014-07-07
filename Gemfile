@@ -12,6 +12,10 @@ group : production do
 	gem "pg" 
 end
 
+gem "rake", "!= 0.9.0"
+end
+
+
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
