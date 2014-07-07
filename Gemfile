@@ -11,12 +11,9 @@ group :development, :test do
 group :production do 
 	gem "pg" 
  end
+ 
+ 
 
- gem 'devise'
-
-gem "rake", "!= 0.9.0"
-
-gem 'bootstrap-sass'
 
 
 gem 'sass-rails', '~> 4.0.3'
