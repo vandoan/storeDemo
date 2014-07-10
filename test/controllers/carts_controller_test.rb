@@ -50,5 +50,6 @@ test "should create line_item" do
     end
 
     assert_redirected_to carts_path
+    end
   end
 end
