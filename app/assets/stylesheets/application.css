@@ -57,6 +57,7 @@
 
 body {
 	padding-top: 40px;
+	padding-bottom: 90px; 
 }
 
 
@@ -103,4 +104,6 @@ body {
 				}
 		}
 }
+
+
 
